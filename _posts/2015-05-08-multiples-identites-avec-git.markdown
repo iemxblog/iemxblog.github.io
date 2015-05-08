@@ -4,7 +4,7 @@ title: "Utiliser plusieurs identités avec Git"
 date: 2015-05-08 12:36:00
 ---
 
-Voici le problème que j'ai rencontré. J'ai 2 adresse mail, une perso et l'autre pour le blog, en l'occurence [iemxblog@gmail.com](mailto:iemxblog@gmail.com). 
+Voici le problème que j'ai rencontré. J'ai 2 adresses mail, une perso et l'autre pour le blog, en l'occurence [iemxblog@gmail.com](mailto:iemxblog@gmail.com). 
 
 Quand j'ai configuré git (il y a plusieurs années...), j'ai donc fait ceci :
 
