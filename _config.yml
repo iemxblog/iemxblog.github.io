@@ -1,5 +1,5 @@
 # Site settings
-title: IEMXBlog
+title: iemxblog
 email: iemxblog@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Développement, logiciels libres, électronique, usinage, CNC, do-it-yourself, arduino, raspberry pi, et diverses autres choses.
