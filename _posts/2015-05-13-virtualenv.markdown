@@ -2,6 +2,7 @@
 layout: post
 title: "Virtualenv"
 date: 2015-05-13 21:33:45
+tags: dev python
 ---
 
 Un petit mémo sur comment utiliser Virtualenv. Virtualenv permet de créer un environnement virtuel où on installe des libs python qui soient isolées du reste du système. On peut aussi utiliser une version de python spécifique.

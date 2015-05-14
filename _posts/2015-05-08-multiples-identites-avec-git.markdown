@@ -2,6 +2,7 @@
 layout: post
 title: "Utiliser plusieurs identités avec Git"
 date: 2015-05-08 12:36:00
+tags: dev python
 ---
 
 Voici le problème que j'ai rencontré. J'ai 2 adresses mail, une perso et l'autre pour le blog, en l'occurence [iemxblog@gmail.com](mailto:iemxblog@gmail.com). 

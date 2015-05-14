@@ -2,7 +2,7 @@
 layout: post
 title: "De Wordpress à Jekyll"
 date: 2015-05-07 15:05:00
-categories: divers
+tags: divers
 ---
 
 J'avais commencé ce blog sur Wordpress, j'avais écris 2 articles (et commencé plein de brouillons). Et puis finalement l'amour de la ligne de commande m'a rattrapé et j'ai décidé d'utiliser [Jekyll](http://jekyllrb.com) et de mettre mon blog sur [Github Pages](https://pages.github.com). 

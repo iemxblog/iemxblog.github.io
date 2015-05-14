@@ -2,7 +2,7 @@
 layout: post
 title: "pmount - Monter une clé usb en tant qu'utilisateur non-root sous Linux"
 date: 2015-04-02 21:30:00
-categories: Linux
+tags: linux
 ---
 Je me demandais s’il y avait moyen de monter une clé usb en tant qu’utilisateur comme on le fait dans Nautilus, mais en ligne de commande. Eh bien je me suis motivé à chercher, car j’en avais marre d’ouvrir Nautilus, monter la clé, quitter Nautilus et retourner dans le terminal. La solution est donc *pmount*.
 
