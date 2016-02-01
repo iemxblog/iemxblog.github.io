@@ -2,6 +2,7 @@
 layout: post
 title: "Augmenter la taille de la swap sur un Raspberry Pi"
 date: 2016-02-01 16:00:00
+thumbnail: /assets/2016-02-01-augmenter-swap-raspberry-pi/thumbnail.jpg
 tags: raspberrypi linux
 ---
 
