@@ -26,7 +26,7 @@ $ sudo mkswap /mnt/sda1/swap.file
 
 J'édite le fichier de config de dphys-swapfile :
 {% highlight console %}
-$ sudo vim /etc/phys-swapfile
+$ sudo vim /etc/dphys-swapfile
 {% endhighlight %}
 
 Contenu initial du fichier :
