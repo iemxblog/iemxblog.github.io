@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Augmenter la taille de la swap sur un Raspberry Pi"
+title: "Augmenter temporairement la taille de la swap sur un Raspberry Pi"
 date: 2016-02-01 16:00:00
 thumbnail: /assets/2016-02-01-augmenter-swap-raspberry-pi/thumbnail.jpg
 tags: raspberrypi linux
@@ -52,4 +52,6 @@ SwapTotal:  2199544 kb
 {% endhighlight %}
 
 
-Finalement, la mémoire n'était pas la cause de mon problème. C'est template-haskell qui est en cause, car la version actuelle de ghc pour processeur ARM fournie par Debian testing ne le supporte pas complètement. Vu que ce n'est pas urgent, je vais attendre tranquillement que la nouvelle version arrive.
+Finalement le problème était double : la manque de RAM était en cause, mais aussi template-haskell qui était mal supporté par la version de ghc de Debian Jessie. J'ai donc changé pour la branche testing, et avec la version 7.10 de ghc et les 2Go de swap tout s'est passé comme il faut.
+
+Je précise aussi que dans le cas montré ici, il s'agit d'une augmentation temporaire de la swap car le disque dur externe n'est pas monté automatiquement. La swap ne sera donc pas disponible après un redémarrage. Il ne faut donc pas oublier de revenir à l'ancienne configuration après avoir terminé ce que l'on veut faire.
